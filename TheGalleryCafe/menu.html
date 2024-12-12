@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>The Gallery Cafe</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="account.html">Accounts</a></li>
+   
+            </ul>
+        </div>
+    </section>
+
+    <section id="search-bar">
+        <input type="text" id="food-search" placeholder="Search for food types...">
+    </section>
+
+
+    <section id="type1" class="section-t1">
+        <div class="pro-container">
+            <div class="pro">
+                <img src="images/SriLankan.jpg" alt="">
+                <div class="des">
+                    
+                    <h5>Sri Lankan Foods</h5>
+                    
+                    <button class="button" onclick="location.href='#sl'">View Food Items</button>
+                </div> 
+               
+            </div>
+
+            <div class="pro">
+                <img src="images/Chinese.jpg" alt="">
+                <div class="des">
+                    
+                    <h5>Chinese Foods</h5>
+                    
+                    <button class="button" onclick="location.href='#chinese'">View Food Items</button>
+                </div> 
+               
+            </div>
+
+            <div class="pro">
+                <img src="images/italian.jpg" alt="">
+                <div class="des">
+                    
+                    <h5>Italian Foods</h5>
+                    
+                    <button class="button" onclick="location.href='#italian'">View Food Items</button>
+                </div> 
+               
+            </div>
+
+            <div class="pro">
+                <img src="images/indian.jpg" alt="">
+                <div class="des">
+                    
+                    <h5>Indian Foods</h5>
+                    
+                    <button class="button" onclick="location.href='#indian'">View Food Items</button>
+                </div> 
+               
+            </div>
+        </div>
+
+    </section>
+
+    <section id="sl" class="sl-menu">
+        <div class="menu-container">
+            
+            <table class="menu-table">
+                <h4>Sri Lankan Menu</h4>
+                
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Food Item</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Order</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Kottu Roti</td>
+                        <td>Stir-fried shredded roti with vegetables, eggs, and your choice of meat.</td>
+                        <td>Rs.500/=</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Hoppers (Appa)</td>
+                        <td>Bowl-shaped pancakes made from fermented rice flour and coconut milk, served with sambal.</td>
+                        <td>Rs.50/=</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Fish Ambul Thiyal (Sour Fish Curry)</td>
+                        <td>Traditional Sri Lankan fish curry made with goraka, spices, and coconut milk.</td>
+                        <td>Rs.200/=</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Lamprais</td>
+                        <td>Dutch-influenced rice dish wrapped in banana leaves, containing meat, sambal, and boiled egg.</td>
+                        <td>Rs.800/=</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Polos (Young Jackfruit Curry)</td>
+                        <td>Tender jackfruit cooked in spices and coconut milk.</td>
+                        <td>Rs.100/=</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            
+        </div>
+    </section>
+
+    
+    <section id="chinese" class="chinese-menu">
+        <div class="menu-container">
+            <table class="menu-table">
+                <h4>Chinese Menu</h4>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Food Item</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Order</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td>
+                        <td>Sweet and Sour Pork</td>
+                        <td>Crispy fried pork in a tangy sweet and sour sauce.</td>
+                        <td>$7.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kung Pao Chicken</td>
+                        <td>Stir-fried chicken with peanuts, vegetables, and chili peppers.</td>
+                        <td>$4.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Dim Sum</td>
+                        <td>Assorted steamed dumplings with various fillings.</td>
+                        <td>$9.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Hot and Sour Soup</td>
+                        <td>Spicy and tangy soup with tofu, mushrooms, and bamboo shoots.</td>
+                        <td>$11.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Peking Duck</td>
+                        <td>Roasted duck served with pancakes, hoisin sauce, and scallions.</td>
+                        <td>$6.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="italian" class="italian">
+        <div class="menu-container">
+            <table class="menu-table">
+                <h4>Italian Menu</h4>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Food Item</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Order</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Margherita Pizza</td>
+                        <td>Classic pizza with tomatoes, mozzarella, and basil.</td>
+                        <td>$8.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Spaghetti Carbonara</td>
+                        <td>Pasta with pancetta, egg, and Parmesan cheese.</td>
+                        <td>$9.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Lasagna</td>
+                        <td>Layered pasta with meat sauce, ricotta, and mozzarella.</td>
+                        <td>$11.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Risotto alla Milanese</td>
+                        <td>Creamy saffron risotto.</td>
+                        <td>$10.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Tiramisu</td>
+                        <td>Coffee-flavored dessert with mascarpone cheese and cocoa.</td>
+                        <td>$5.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="indian" class="indian-menu">
+        <div class="menu-container">
+            <table class="menu-table">
+                <h4>Indian Menu</h4>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Food Item</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Order</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Butter Chicken (Murgh Makhani)</td>
+                        <td>Tender chicken pieces cooked in a rich and creamy tomato-based sauce.</td>
+                        <td>$11.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Paneer Tikka</td>
+                        <td>Marinated paneer (Indian cottage cheese) cubes grilled to perfection.</td>
+                        <td>$9.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Biryani</td>
+                        <td>Fragrant rice cooked with aromatic spices and your choice of chicken, mutton, or vegetables.</td>
+                        <td>$12.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Masala Dosa</td>
+                        <td>Crispy rice and lentil crepe filled with spicy potato filling, served with chutneys and sambar.</td>
+                        <td>$7.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Palak Paneer</td>
+                        <td>Soft paneer cubes cooked in a creamy spinach gravy.</td>
+                        <td>$9.99</td>
+                        <td><button class="order-button" onclick="location.href='#admin-login'">Order Now</button></td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="admin-login">
+        <div class="container">
+            <div class="form-container sign-up-container">
+                <form id="register-form" method="POST" action="register.php">
+                    <h1>Create Account</h1>
+                    <input type="text" name="username" placeholder="Username" required />
+                    <input type="email" name="email" placeholder="Email" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form id="login-form" method="POST" action="login.php">
+                    <h1>Sign in</h1>
+                    <input type="text" name="username" placeholder="Username" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Our Establishments</h3>
+                    <p>Paradise Road Flagship Store<br>Open - 10 AM - 7 PM</p>
+                    <p>Paradise Road The Gallery Café<br>Open - 10 AM - Midnight</p>
+                    <p>Paradise Road Tintagel Colombo<br>Open - 6:30 AM - 11 PM</p>
+                </div>
+                <div class="footer-section">
+                    <h3>How Can We Help</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Payment Methods</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Media Stay</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Phone: +94 11 2686043</p>
+                    <p>Email: <a href="mailto:customerservice@paradiseroad.lk">customerservice@paradiseroad.lk</a></p>
+                    <div class="social-media">
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-instagram'></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 The Gallery Café. Experience the world on a plate at The Gallery Café – where every meal is a masterpiece.</p>
+            </div>
+        </footer>
+        
+        
+        
+    
+</body>
+</html>
